@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>HelloWorld</Name>
+    <FullClassName>HelloWorld.Class1</FullClassName>
+    <Text>HelloWorld</Text>
+    <Description>Get ID from a element</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>HelloWorld.dll</Assembly>
+    <AddInId>339b1008-85b7-4d3c-8c23-b48d27711639</AddInId>
+    <VendorId>ersvn</VendorId>
+    <VendorDescription>Pham Tuan Minh, www.ersvn.net</VendorDescription>
+  </AddIn>
+ </RevitAddIns>

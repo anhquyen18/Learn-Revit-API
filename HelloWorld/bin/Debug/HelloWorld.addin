@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>725ebaf5-ad6d-4fbd-ba4a-397b9ca52008</AddInId>
+    <FullClassName>HelloWorld.MyElement</FullClassName>
+    <Text>Get Infor</Text>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>e14b460d-8bce-407b-882e-9ed51f1349d8</AddInId>
+    <FullClassName>HelloWorld.ChangeElement</FullClassName>
+    <Text>Change Element</Text>
+    <Description>Delete a element from Revit</Description>
+    <VendorId>ADSK1</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>7ef775b4-b5f8-49b0-be69-d102cafc388a</AddInId>
+    <FullClassName>HelloWorld.PlaceFamily</FullClassName>
+    <Text>Place a Family</Text>
+    <Description>Place a Family in revit</Description>
+    <VendorId>ADSK2</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>789bd19a-1947-4d2a-a465-44e4870b7ab3</AddInId>
+    <FullClassName>HelloWorld.PlaceWall</FullClassName>
+    <Text>Place a Wall</Text>
+    <Description>Place a Wall in revit</Description>
+    <VendorId>ADSK3</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>5a8a8395-aba1-435e-be19-e775156125cd</AddInId>
+    <FullClassName>HelloWorld.CreateNewFloor</FullClassName>
+    <Text>Create a Floor</Text>
+    <Description>Create a floor in revit</Description>
+    <VendorId>ADSK4</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>eb6adb77-8bab-4ec7-a834-d4a259d8a5b0</AddInId>
+    <FullClassName>HelloWorld.GetPara</FullClassName>
+    <Text>Get Head Height</Text>
+    <Description>Get information in revit</Description>
+    <VendorId>ADSK5</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>1863f3a0-0f00-4e90-9460-36b6c2a8dfe6</AddInId>
+    <FullClassName>HelloWorld.SetPara</FullClassName>
+    <Text>Set Head Height</Text>
+    <Description>Set information in revit</Description>
+    <VendorId>ADSK6</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>3e99fc60-c37e-4a4c-ba90-9217fe34b3b3</AddInId>
+    <FullClassName>HelloWorld.ChangeLocation</FullClassName>
+    <Text>Change Location</Text>
+    <Description>Change location a element in revit</Description>
+    <VendorId>ADSK7</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>739a6615-24fe-4bd9-976a-5a3f96b9b759</AddInId>
+    <FullClassName>HelloWorld.EditElement</FullClassName>
+    <Text>Edit Element</Text>
+    <Description>Edit a element in revit</Description>
+    <VendorId>ADSK8</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>d8eeb98d-6eef-4c85-963d-c0f27c05b1f0</AddInId>
+    <FullClassName>HelloWorld.GetIntersection</FullClassName>
+    <Text>Get Intersection</Text>
+    <Description>Get intersection in revit</Description>
+    <VendorId>ADSK9</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>1463936d-1e09-4f1f-83c9-2b42a3ec3f63</AddInId>
+    <FullClassName>HelloWorld.GetGeometry</FullClassName>
+    <Text>Get Geometry</Text>
+    <Description>Count and Area of element</Description>
+    <VendorId>ADSK10</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+    <AddInId>f96a043b-0a8a-414e-b9a9-3c48321b6e4d</AddInId>
+    <FullClassName>HelloWorld.GetReferenceIntersection</FullClassName>
+    <Text>Get Reference Intersection</Text>
+    <Description>Get reference intersection of element</Description>
+    <VendorId>ADSK11</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  
+   <AddIn Type="Command">
+      <Assembly>F:\Revit\Learn Revit API\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll</Assembly>
+      <AddInId>68a42852-5fbc-4f38-8ed4-0a33a4a36cd0</AddInId>
+      <FullClassName>HelloWorld.CreateViewPlan</FullClassName>
+      <Text>Create View Plan</Text>
+      <Description>Create a view plan by api</Description>
+      <VendorId>ADSK12</VendorId>
+      <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
